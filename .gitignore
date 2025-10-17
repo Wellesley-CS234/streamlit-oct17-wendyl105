@@ -1,0 +1,43 @@
+#------------------------------------
+
+#Virtual Environment (VENV)
+
+#Do not commit the local Python environment directory.
+
+#This ensures a clean repository and forces collaborators to use their own environment.
+
+.cs234st/
+
+#------------------------------------
+
+#Operating System files
+
+.DS_Store
+Thumbs.db
+
+#------------------------------------
+
+#Python specific ignored files
+
+pycache/
+*.pyc
+
+#Compiled files
+
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+#Streamlit/Pandas specific cache files
+
+.streamlit/
+
+#Ignore data saved by Streamlit's file uploader or caching mechanisms
+
+cache/
+
+# VSCode settings files
+
+.vscode/
